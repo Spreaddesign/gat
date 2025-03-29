@@ -1,3 +1,7 @@
+body::webkit-scrollbar {
+  display: none !important;
+}
+
 /*Color*/
 .light-bg {
   background: #fff;
