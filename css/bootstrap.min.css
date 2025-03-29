@@ -58,6 +58,10 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
 hr {
     margin: 1rem 0;
     color: inherit;
