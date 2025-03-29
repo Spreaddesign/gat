@@ -1776,7 +1776,7 @@ body.active header .navbar {
   padding: 180px 0 100px;
   position: relative;
   overflow: hidden;
-  background-image: url("../img/events-bg-1.jpg");
+  background-image: url("../img/events-bg-1.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -2227,7 +2227,7 @@ footer .contact-info form .form-group textarea {
   height: 100%;
 }
 .trustees .trustees-inner .trustees-list .trustees-img {
-  background-image: url("../img/trustee-bg.jpg");
+  background-image: url("../img/trustee-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -2319,7 +2319,7 @@ footer .contact-info form .form-group textarea {
 
 .get-in-touch {
   padding: 80px 0;
-  background-image: url("../img/get-in-touch.jpg");
+  background-image: url("../img/get-in-touch.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -2613,7 +2613,7 @@ body.web-view-active .web-View {
 }
 .key-heights-sec::before {
   content: "";
-  background-image: url(../img/bg-line.png);
+  background-image: url(../img/bg-line.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -3432,7 +3432,7 @@ body.web-view-active .web-View {
 @media (max-width: 767px) {
   .contact-wraper .contact-inner::after {
     content: "";
-    background-image: url(../img/mesh-04.png);
+    background-image: url(../img/mesh-04.webp);
     background-size: 80%;
     background-repeat: no-repeat;
     display: inline-block;
@@ -3543,7 +3543,7 @@ body.web-view-active .web-View {
 }
 .main-banner::after {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-size: 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -3929,7 +3929,7 @@ body.web-view-active .web-View {
 }
 .whats-happening::before {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-repeat: no-repeat;
   display: block;
   width: 1300px;
@@ -3999,7 +3999,7 @@ body.web-view-active .web-View {
 }
 .more-sec::after {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-repeat: no-repeat;
   display: block;
   width: 1300px;
@@ -4221,7 +4221,7 @@ body.web-view-active .web-View {
 }
 .inshorts::before {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-size: 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -4236,7 +4236,7 @@ body.web-view-active .web-View {
 }
 .inshorts::after {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-size: 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -4422,7 +4422,7 @@ body.web-view-active .web-View {
 }
 
 .sub-banner {
-  background-image: url("../img/sub-banner.jpg");
+  background-image: url("../img/sub-banner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -4465,7 +4465,7 @@ body.web-view-active .web-View {
 }
 .mission::before {
   content: "";
-  background-image: url(../img/mesh-02.png);
+  background-image: url(../img/mesh-02.webp);
   background-size: 84%;
   background-repeat: no-repeat;
   width: 1800px;
@@ -4568,7 +4568,7 @@ body.web-view-active .web-View {
 }
 .messages::before {
   content: "";
-  background-image: url(../img/mesh-03.png);
+  background-image: url(../img/mesh-03.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 1480px;
@@ -4804,7 +4804,7 @@ body.web-view-active .web-View {
 }
 .why-choose-sec::before {
   content: "";
-  background-image: url(../img/mesh-03.png);
+  background-image: url(../img/mesh-03.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 1480px;
