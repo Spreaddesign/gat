@@ -20,7 +20,7 @@ document.getElementById("overlay").addEventListener("click", function () {
 });
 
 
-
+$('')
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -132,8 +132,7 @@ window.addEventListener('scroll', function () {
 			$('#heading-alt').css({ color: '#FFCE32' })
 			$('#text').text('Our students embrace an entrepreneurial mindset to drive innovation, Create impact, and lead the change.')
 			$('#slider-line').addClass('slider-line-alt').removeClass('slider-line')
-
-      $('.button').css({ 'background-color': '#FFCE32' });
+      			$('.button').css({ 'background-color': '#FFCE32' });
 
       button
 		} else {
@@ -143,6 +142,6 @@ window.addEventListener('scroll', function () {
 			$('#heading-alt').css({ color: '#007BFF' })
 			$('#text').text('It’s time to shift gears, from being consumers of knowledge to become creators of opportunities.')
 			$('#slider-line').removeClass('slider-line-alt').addClass('slider-line')
-      $('.button').css({ 'background-color': '#007BFF' });
+      			$('.button').css({ 'background-color': '#007BFF' });
 		}
 	})
