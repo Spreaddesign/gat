@@ -30,7 +30,6 @@ $('.sub-link').on('click', function() {
 	$('#overlay').removeClass('active')
 })
 
-
 document.addEventListener("DOMContentLoaded", function () {
     let toggles = document.querySelectorAll(".menu-toggle");
 
