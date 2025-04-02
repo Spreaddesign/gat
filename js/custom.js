@@ -20,12 +20,12 @@ document.getElementById("overlay").addEventListener("click", function () {
 });
 
 
-$('.navlink').on('click', function() {
+$('.nav-link').on('click', function() {
 	$('#sidenav').removeClass('active')
 	$('#overlay').removeClass('active')
 })
 
-$('.sublink').on('click', function() {
+$('.sub-link').on('click', function() {
 	$('#sidenav').removeClass('active')
 	$('#overlay').removeClass('active')
 })
