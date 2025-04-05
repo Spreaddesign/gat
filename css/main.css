@@ -30,7 +30,8 @@ body {
   margin: 0;
 }
 
-body::webkit-scrollbar {
+*::-webkit-scrollbar,
+body::-webkit-scrollbar {
   display: none !important;
 }
 
