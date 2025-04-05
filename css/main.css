@@ -30,6 +30,10 @@ body {
   margin: 0;
 }
 
+body::webkit-scrollbar {
+  display: none !important;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -100,6 +104,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #fff !important;
 }
 
 /* Text-level semantics
