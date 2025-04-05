@@ -143,7 +143,7 @@ window.addEventListener('scroll', function () {
 
       $('.button').css({ 'background-color': '#FFCE32' });
 
-      // button
+      button
 		} else {
 			$('#heading').text('Change')
 			$('#heading-alt').text('Now')
