@@ -107,8 +107,8 @@ a:hover {
   outline: 0;
 }
 
-.nav-link:hover,
-.sub-link:hover{
+.navlink:hover,
+.sublink:hover{
     color: #fff !important;
 }
 
