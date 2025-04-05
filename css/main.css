@@ -95,7 +95,7 @@ template {
  */
 a {
   background-color: transparent;
-  color: #fff;
+  color: #fff !important;
 }
 
 /**
