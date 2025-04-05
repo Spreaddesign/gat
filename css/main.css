@@ -1451,7 +1451,7 @@ header .sidenav a {
 header .sidenav a:hover {
   background-color: transparent;
 }
-header .sidenav .sub-link {
+header .sidenav .sublink {
   font-size: 18px;
   line-height: 20px;
 }
