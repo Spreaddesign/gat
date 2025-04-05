@@ -104,6 +104,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #fff !important;
 }
 
 /* Text-level semantics
