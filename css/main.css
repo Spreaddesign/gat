@@ -1573,7 +1573,7 @@ body.active header .navbar {
 }
 .change-now::after {
   content: "";
-  background: url("../img/Build-next.svg") no-repeat;
+  background: url(../img/Build-next.svg) no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -2301,7 +2301,7 @@ footer .contact-info form .form-group textarea {
   height: 100%;
 }
 .trustees .trustees-inner .trustees-list .trustees-img {
-  background-image: url("../img/trustee-bg.jpg");
+  background-image: url("../img/trustee-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -2393,7 +2393,7 @@ footer .contact-info form .form-group textarea {
 
 .get-in-touch {
   padding: 80px 0;
-  background-image: url("../img/get-in-touch.jpg");
+  background-image: url("../img/get-in-touch.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -2696,7 +2696,7 @@ body.web-view-active .web-View {
 }
 .key-heights-sec::before {
   content: "";
-  background-image: url(../img/bg-line.png);
+  background-image: url(../img/bg-line.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -3379,7 +3379,7 @@ body.web-view-active .web-View {
 }
 .main-banner::after {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-size: 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -3765,7 +3765,7 @@ body.web-view-active .web-View {
 }
 .whats-happening::before {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-repeat: no-repeat;
   display: block;
   width: 1300px;
@@ -3843,7 +3843,7 @@ body.web-view-active .web-View {
 }
 .more-sec::after {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-repeat: no-repeat;
   display: block;
   width: 1300px;
@@ -4065,7 +4065,7 @@ body.web-view-active .web-View {
 }
 .inshorts::before {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-size: 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -4080,7 +4080,7 @@ body.web-view-active .web-View {
 }
 .inshorts::after {
   content: "";
-  background-image: url(../img/mesh-01.png);
+  background-image: url(../img/mesh-01.webp);
   background-size: 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -4321,7 +4321,7 @@ body.web-view-active .web-View {
 }
 .mission::before {
   content: "";
-  background-image: url(../img/mesh-02.png);
+  background-image: url(../img/mesh-02.webp);
   background-size: 84%;
   background-repeat: no-repeat;
   width: 1800px;
@@ -4424,7 +4424,7 @@ body.web-view-active .web-View {
 }
 .messages::before {
   content: "";
-  background-image: url(../img/mesh-03.png);
+  background-image: url(../img/mesh-03.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 1480px;
@@ -4660,7 +4660,7 @@ body.web-view-active .web-View {
 }
 .why-choose-sec::before {
   content: "";
-  background-image: url(../img/mesh-03.png);
+  background-image: url(../img/mesh-03.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 1480px;
@@ -5087,7 +5087,7 @@ body.web-view-active .web-View {
 }
 .admission-sec::after {
   content: "";
-  background-image: url(../img/mesh-05.png);
+  background-image: url(../img/mesh-05.webp);
   background-size: 62%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -5812,7 +5812,7 @@ body.web-view-active .web-View {
 }
 .contact-sub::after {
   content: "";
-  background-image: url(../img/mesh-06.png);
+  background-image: url(../img/mesh-06.webp);
   background-size: 60%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -5852,7 +5852,7 @@ body.web-view-active .web-View {
 @media (max-width: 767px) {
   .ceo-sec::after {
     content: "";
-    background-image: url(../img/mesh-07.png);
+    background-image: url(../img/mesh-07.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
@@ -6090,7 +6090,7 @@ body.web-view-active .web-View {
 }
 .placement-banner::before {
   content: "";
-  background-image: url(../img/mesh-08.png);
+  background-image: url(../img/mesh-08.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -6458,7 +6458,7 @@ body.web-view-active .web-View {
 @media (max-width: 767px) {
   .choose-sec::after {
     content: "";
-    background-image: url(../img/mesh-05.png);
+    background-image: url(../img/mesh-05.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
