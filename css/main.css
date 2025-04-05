@@ -112,6 +112,11 @@ a:hover {
     color: #fff !important;
 }
 
+.sublink {
+  font-size: 18px;
+  line-height: 20px;
+}
+
 /* Text-level semantics
    ========================================================================== */
 /**
