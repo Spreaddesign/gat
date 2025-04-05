@@ -1,0 +1,264 @@
+.rate-calculate {
+  .modal-dialog {
+    max-width: 1070px;
+    .modal-content {
+      .modal-body {
+        .filter-3 li {
+          padding: 20px;
+          @media (max-width: 767px) {
+            padding: 15px;
+          }
+        }
+        .search-btn {
+          // margin-bottom: -55px;
+          // @media (#{$sm-991}) {
+          //   margin-bottom: -45px;
+          // }
+        }
+      }
+    }
+  }
+}
+
+.filter-3 {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  li {
+    width: calc(100% / 3);
+    border-bottom: 1px solid #f6f7f9;
+    border-right: 1px solid #f6f7f9;
+    padding: 12px;
+    flex: inherit !important;
+    @media (#{$sm-991}) {
+      padding: 10px;
+    }
+    @media (#{$sm-767}) {
+      width: calc(100% / 2);
+    }
+    @media (#{$sm-575}) {
+      width: 100%;
+      padding: 10px;
+    }
+    &:nth-child(3n+3) {
+      border-right: none;
+      @media (#{$sm-767}) {
+        border-right: 1px solid #f6f7f9;
+      }
+    }
+    &:nth-child(2n+2) {
+
+      @media (#{$sm-767}) {
+        border-right: none;
+      }
+    }
+  }
+}
+
+
+
+.custom-modal {
+  .modal-dialog {
+    // max-width: 1070px;
+    .modal-content {
+      box-shadow: 0px 4px 26px rgba(25,22,53,10);
+      border-radius: 16px;
+      border: none;
+    }
+    .modal-header {
+      text-align: center;
+      padding: 28px 26px 0;
+      border: none;
+      .modal-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 0;
+        flex: 1;
+        color: #000000;
+        @media (#{$sm-991}) {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 28px;
+      }
+      }
+
+      h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+      }
+
+    }
+    .btn-close {
+      padding: 0;
+      position: absolute;
+      right: 24px;
+      top: 24px;
+      cursor: pointer;
+      z-index: 99;
+    }
+    .modal-body {
+      padding: 26px 26px 35px;
+      @media (#{$sm-991}) {
+        padding: 10px 10px 25px;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+        text-align: center;
+        display: block;
+        width: 100%;
+      }
+      .search-btn {
+        margin-bottom: -20px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        // @media (#{$sm-991}) {
+        //   bottom: -45px;
+        // }
+        button {
+          margin: 0;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  &.sign-in {
+    .modal-body {
+      padding: 50px;
+      @media (#{$sm-767}) {
+        padding: 25px;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-bottom: 18px;
+        @media (#{$sm-767}) {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+      p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #191635;
+        margin-bottom: 25px;
+        opacity: 0.8;
+      }
+      small {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 21px;
+      }
+      form {
+        .form-control {
+          height: 57px;
+        }
+        margin-bottom: 8px;
+      }
+      .forgotPw {
+        margin-bottom: 28px;
+      }
+      button {
+        margin-bottom: 12px;
+      }
+      .stoke-text {
+        margin: 40px auto;
+        max-width: 50%;
+        @media (#{$sm-767}) {
+          margin: 20px auto;
+        }
+        span {
+          color: #c3c3c3;
+          background-color: #fff;
+        }
+      }
+      .agree-info {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+      }
+    }
+ 
+  }
+}
+
+
+.hotel-info {
+  @media (#{$sm-767}) {
+    flex-wrap: wrap;
+  }
+
+  .hotel-img {
+    flex: 0 0 162px;
+    max-width: 162px;
+    margin-right: 32px;
+    @media (#{$sm-767}) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+    img {
+
+    }
+  }
+  .hotel-details {
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #191635;
+      margin-bottom: 0;
+    }
+    a {
+      color: #635EF8;
+      text-decoration: none;
+    }
+    span  {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      color: #000000;
+      // padding-right: 15px;
+      img {
+          width: 11px;
+          height: 12px;
+          margin: 0 4px;
+      }
+    }
+    .divider {
+      display: inline-block;
+      margin: 0 10px;
+      width: 2px;
+      background: #e8eaf0;
+      height: auto;
+    }
+    .location {
+      align-items: baseline;
+      img {
+        width: 13px;
+      }
+      span {
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+// Brand colors
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+// color
+$primary: #007BFF;
+$black : #000;
+$white : #fff;
+$yellow: #FFCE32;
+$yellow-1 : #D8C926;
+$secondary: #FF6565;
+$gray: #292F36;
+
+
+$primary-dark: #3F051F;
+// landing
+$dark-text: #070828;
+// $light-gray: #191635;
+$blue: #4C3ED1 !default;
+$blue-primary: #8C8AFF;
+// Line height
+$base-line-height: 1.4;
+$heading-line-height: 1.2;
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+// Border
+// $base-border-color: $gray-light;
+// $base-border: 1px solid $base-border-color;
+// gradient
+$topBarDarkBlue: rgb(0, 37, 143);
+$topBarLightBlue: rgb(75, 102, 177);
+// Font stack
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$body-font: 'Proxima-Nova',sans-serif;
+
+$Proxima-Nova: 'Proxima-Nova',sans-serif;
+
+// The base body size
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$body-font-size: 14px !default;
+// Breakpoints
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// min
+$lg-320: "min-width: 320px";
+$lg-576: "min-width: 576px";
+$lg-768: "min-width: 768px";
+$lg-992: "min-width: 992px";
+$lg-1200: "min-width: 1200px";
+$lg-1300: "min-width: 1300px";
+$lg-1400: "min-width: 1400px";
+// max
+$sm-575: "max-width: 575px";
+$sm-767: "max-width: 767px";
+$sm-991: "max-width: 991px";
+$sm-1199: "max-width: 1199px";
+// Colors
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$primary-grn: #37B24A;
+$gray-title: #2A2A2A;
+$gray-light: #545454;
+$gray-nav: #707070;
+$bg-gray: #F2F2F2;
+$black: #000;
+$white: #fff;
+
+/*Color*/
+
+.light-bg {
+    background: #fff;
+}
+
+
+/* placeholder mixin */

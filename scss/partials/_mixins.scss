@@ -1,0 +1,131 @@
+// Clearfix
+//
+// Clears floats via mixin (avoid using as a class).
+@mixin vendor-prefix($name, $value) {
+    @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+        #{$vendor}#{$name}: #{$value};
+    }
+}
+// in scss
+// @include vendor-prefix('transform',
+//         'translateY(-50%)');
+
+@mixin flexbox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex-wrap($value: nowrap) {
+    // No Webkit/FF Box fallback.
+    -webkit-flex-wrap: $value;
+    @if $value==nowrap {
+        -ms-flex-wrap: none;
+    }
+    @else {
+        -ms-flex-wrap: $value;
+    }
+    flex-wrap: $value;
+}
+
+@mixin flex-flow($values: (row nowrap)) {
+    // No Webkit/FF Box fallback.
+    -webkit-flex-flow: $values;
+    -ms-flex-flow: $values;
+    flex-flow: $values;
+}
+
+@mixin transition ($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}
+
+@mixin placeholder {
+    &:-webkit-input-placeholder {
+        @content
+    }
+    &:-moz-placeholder {
+        @content
+    }
+    &::-moz-placeholder {
+        @content
+    }
+    &:-ms-input-placeholder {
+        @content
+    }
+}
+
+@mixin clearfix {
+    &:before {
+        display: table;
+        content: "";
+    }
+    &:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+}
+
+// gradient
+@mixin bg-gradient() {
+    background: $topBarDarkBlue;
+    background: -moz-linear-gradient(top, $topBarDarkBlue 0%, $topBarLightBlue 100%);
+    background: -webkit-linear-gradient(top, $topBarDarkBlue 0%, $topBarLightBlue 100%);
+    background: linear-gradient(to bottom, $topBarDarkBlue 0%, $topBarLightBlue 100%);
+    // filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00258f', endColorstr='#4b66b1', GradientType=0);
+}
+
+
+/* placeholder mixin */
+
+@mixin placeholder {
+     ::-webkit-input-placeholder {
+        @content
+    }
+     :-moz-placeholder {
+        @content
+    }
+     ::-moz-placeholder {
+        @content
+    }
+     :-ms-input-placeholder {
+        @content
+    }
+}
+
+@mixin transition ($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}
+
+
+/* how to use this variabile*/
+
+
+/* .forms{
+     @include placeholder{
+      opacity: 1;color: #a5aeb7;
+    } */
+
+
+/* @include transition (.2s ease-out all); */
+
+@mixin box-shadow($top, $left, $blur, $size, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow: inset $top $left $blur $size $color;
+        -moz-box-shadow: inset $top $left $blur $size $color;
+        box-shadow: inset $top $left $blur $size $color;
+    }
+    @else {
+        -webkit-box-shadow: $top $left $blur $size $color;
+        -moz-box-shadow: $top $left $blur $size $color;
+        box-shadow: $top $left $blur $size $color;
+    }
+}
