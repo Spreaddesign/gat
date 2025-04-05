@@ -4266,7 +4266,7 @@ body.web-view-active .web-View {
 }
 
 .sub-banner {
-  background-image: url("../img/sub-banner.jpg");
+  background-image: url("../img/sub-banner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
