@@ -95,7 +95,6 @@ template {
  */
 a {
   background-color: transparent;
-  color: #fff !important;
 }
 
 /**
@@ -105,7 +104,11 @@ a {
 a:active,
 a:hover {
   outline: 0;
-  color: #fff;
+}
+
+.nav-link:hover,
+.sub-link:hover{
+    color: #fff !important;
 }
 
 /* Text-level semantics
