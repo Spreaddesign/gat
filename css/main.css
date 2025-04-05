@@ -1573,7 +1573,7 @@ body.active header .navbar {
 }
 .change-now::after {
   content: "";
-  background: url(../img/Build-next.svg) no-repeat;
+  background: url("../img/Build-next.svg") no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
