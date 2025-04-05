@@ -94,7 +94,8 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent;
+  color: #fff;
+/*   background-color: transparent; */
 }
 
 /**
@@ -105,6 +106,7 @@ a:active,
 a:hover {
   outline: 0;
   color: #fff !important;
+  opacity: 50%;
 }
 
 /* Text-level semantics
